@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Projeto Fintech</title>
+</head>
+
+<body>
+
+    <header class="container mt-3">
+        <nav class="navbar navbar-expand-lg nav-color" > 
+            <div class="container-fluid">
+                <a class="navbar-brand .text-color-dark" href="#">Fintech</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Suporte</a>
+                        </li>
+                        <div class="dropdown" data-bs-theme="dark">
+                            <button class="btn dropdown-color dropdown-toggle text-black" type="button" id="dropdownMenuButtonDark"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Serviços
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDark">
+                                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                                <li><a class="dropdown-item" href="#">Cartões</a></li>
+                                <li><a class="dropdown-item" href="#">Transações</a></li>
+                                <li><a class="dropdown-item active bg-danger" href="#">Investimentos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Conta</a></li>
+                                <li><a class="dropdown-item" href="#">Ajustes</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container mt-5">
+        <div class="row d-flex text-align-start align-items-center">
+            <div class="col-lg-6 text-start text-light">
+                <p class="fw-bold fs-4 ps-3">Meus investimentos</p>
+            </div>
+
+        </div>
+    </section>
+    <div class="container my5">
+        <table class="table table-danger table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Empresa</th>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Investidos</th>
+                    <th scope="col">Lucro</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Nubank</td>
+                    <td>Nucoin</td>
+                    <td>$ 50.000</td>
+                    <td>R$ 275.924,24</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Petrobras</td>
+                    <td>Ações</td>
+                    <td>$ 35.000</td>
+                    <td>R$ 193.280</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td >Shell</td>
+                    <td> Postos </td>
+                    <td>$ 75.000</td>
+                    <td>R$ 567.987,32</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td >SpaceX</td>
+                    <td> SpaceBus</td>
+                    <td>$ 900.000</td>
+                    <td>R$ ----------</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td >OldSpice</td>
+                    <td>Fabricas</td>
+                    <td>$ 300.000</td>
+                    <td>R$ 937.324,98</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td >RiotGames</td>
+                    <td>Launcher</td>
+                    <td>R$ 20,00</td>
+                    <td>$ 0,0034</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td >Microsoft</td>
+                    <td>Xbox</td>
+                    <td>$ 157.000</td>
+                    <td>R$ 747.850</td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td >Sony</td>
+                    <td>Playstation</td>
+                    <td>$ 155.000</td>
+                    <td>R$ 725.983</td>
+                </tr>
+                <tr>
+                    <th scope="row">9</th>
+                    <td >Disney</td>
+                    <td>Pixar</td>
+                    <td>$ 125.000</td>
+                    <td>R$ 400.983</td>
+                </tr>
+                <tr>
+                    <th scope="row">10</th>
+                    <td >Netflix</td>
+                    <td>Dominio</td>
+                    <td>$ 800.345</td>
+                    <td>R$ 900.983</td>
+                </tr>
+                <tr>
+                    <th scope="row">11</th>
+                    <td >HBO</td>
+                    <td>Dominio</td>
+                    <td>$ 423.000</td>
+                    <td>R$ 325.983</td>
+                </tr>
+                <tr>
+                    <th scope="row">12</th>
+                    <td >StarPlus</td>
+                    <td>Dominio</td>
+                    <td>$ 743.000</td>
+                    <td>R$ 100.983</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="inv">
+        <p class="text-light">Valores não declarados ainda podem ser modificados.</p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

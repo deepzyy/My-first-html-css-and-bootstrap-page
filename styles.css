@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    .bg-red {
+        color: #5c1c1c
+    }
+
+
+}
+
+th,
+td {
+    text-align: center;
+}
+
+body {
+    background-color: #130b0b;
+}
+
+.nav-color, .dropdown-color{
+    background-color: var(--bs-red);
+    
+
+}
+
+.inv{
+    display: grid;
+    justify-content: space-around;
+    
+}
+
+
+:root,
+[data-bs-theme=light] {
+    --bs-blue: #0d6efd;
+    --bs-red: rgb(212, 80, 93);
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-danger: #552429;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+}
